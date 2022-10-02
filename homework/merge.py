@@ -13,7 +13,7 @@ def option():
         Surn = str(input("Введите фамилию ученика: "))
         if Surn in si.stud_card['Фамилия']:
             index = si.stud_card['Фамилия'].index(Surn)
-        print(f"{si.stud_card['ID'][index]}, {si.stud_card['Имя'][index]},{si.stud_card['Фамилия'][index]}\n,{si.stud_card['Дата рождения'][index]}, {si.stud_card['Успеваемость'][index]}")
+        print(f"{si.stud_card['ID'][index]}, {si.stud_card['Имя'][index]}, {si.stud_card['Фамилия'][index]},\n {si.stud_card['Дата рождения'][index]}, {si.stud_card['Успеваемость'][index]}")
       
         exit()
 
