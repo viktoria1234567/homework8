@@ -1,3 +1,6 @@
+import student_info as si
+import cabinet_info as cab
+
 def option():
     
     ch = int(input('Введите что хотите сделать: \n \
